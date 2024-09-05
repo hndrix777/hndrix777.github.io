@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <h3 style="padding-left: 50px">Descriçáo de entrada/saída</h3>
+<hr>
+    <a href="login.html"><button>Retornar a tela de login</button></a>
+    <br><br>
+
+    <form>
+        <table style="border-color: black" border="2">
+            <thead>
+                <tr align="center"><td colspan="2">Entrada</td></tr>
+
+            </thead>
+
+            <tr>
+                <th style="width:50%"><input type="date" style="border: none">
+
+                </th>
+
+                <th style="width: 50%;" colspan="2"><a>Valor: <input type="number" required style="border: none" placeholder="Digite o valor aqui"></a>
+
+                </th>
+
+            </tr>
+
+            <tr>
+
+                <td colspan="2"><textarea style="width: 99%;" rows="5" placeholder="Digite a descrição:"></textarea>
+
+                </td>
+                
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="movpos">Selecione a entrada</label>
+                    <select name="movpos" required>
+                        <option value="">Selecione</option>
+                        <option value="1">Salário</option>
+                        <option value="2">Benefícios</option>
+                        <option value="3">Empréstimo</option>
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Salvar"></td>
+                <td><input type="reset" value="Limpar"></td>
+
+            </tr>
+        </table>
+
+    </form>
+
+    <br><br>
+
+    <form>
+        <table style="border-color: black" border="2">
+            <thead>
+                <tr align="center"><td colspan="2">Saida</td></tr>
+
+            </thead>
+
+            <tr>
+                <th style="width:50%"><input type="date" style="border: none">
+
+                </th>
+
+                <th style="width: 50%;" colspan="2"><a>Valor: <input type="number" required style="border: none" placeholder="Digite o valor aqui"></a>
+
+                </th>
+
+            </tr>
+
+            <tr>
+
+                <td colspan="2"><textarea style="width: 99%;" rows="5" placeholder="Digite a descrição:"></textarea>
+
+                </td>
+                
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="movneg">Selecione a saída</label>
+                    <select name="movneg" required>
+                        <option value="">Selecione</option>
+                        <option value="1">Contas</option>
+                        <option value="2">Despesas Inesperadas</option>
+                        <option value="3">Mercado</option>
+                        <option value="4">Saúde</option>
+                        <option value="4">Invest. PC</option>
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+            <td><input type="submit" value="Salvar"></td>
+            <td><input type="reset" value="Limpar"></td>
+        </tr>
+        </table>
+
+    </form>
+<hr>
+    <form action="relatório.html" method="GET">
+
+        <input type="submit" value="Relatório">
+    
+</body>
+</html>

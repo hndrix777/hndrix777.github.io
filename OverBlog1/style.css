@@ -150,7 +150,7 @@ textarea:focus, input:focus, select:focus {
     color: #fff;
     padding: 2px;
     text-align: center;
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
     width: 100%;

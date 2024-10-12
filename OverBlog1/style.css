@@ -1,0 +1,155 @@
+#OverBlog {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    left: 0;
+    right: 0;
+    top: 0;
+
+}
+
+#formsearch {
+    background-color:black;
+    border: transparent;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+    position: absolute;
+    right: 20px;
+    margin-top: -75px;
+  }
+
+  #jogueagora {
+    background-color:black;
+    border: transparent;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+    position: absolute;
+    right: 20px;
+    margin-top: -150px;
+  }
+
+input {
+    color: white;
+}
+
+textarea:focus, input:focus, select:focus {
+    outline: 0;
+}
+  
+#txtBusca {
+    float:left;
+    background-color: transparent;
+    padding-left:5px;
+    font-size:15px;
+    border:orange;
+    border: solid 2px orange;
+    height:32px;
+    width:270px;
+    position: absolute;
+    right: 20px;
+  }
+
+::-webkit-input-placeholder {
+    color: white;
+}
+  
+#conteudo{
+  padding-top: 25vmin; 
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 25vmin;
+}
+
+#divmaior{
+  padding-left: 50px; 
+  width: 100%;
+  padding: 20px;
+  flex: 1 1 200px; 
+  display: flex;
+  min-width: 700px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+#divmenor{
+  padding-left: 50px;
+  max-width: 30%; 
+
+}
+
+#titulo{
+  padding-left: 80px;
+  position: absolute;
+
+}
+
+#texto{
+  padding-top: 50px;
+  
+}
+
+.btnLink {
+  color: white;
+  border:transparent;
+  float:left;
+  height:37px;
+  border-radius:20px;
+  width:200px;
+  font-weight:bold;
+  background:orange;
+  position: absolute;
+  right: 20px;
+}
+
+.btnBusca {
+  color: white;
+  border:transparent;
+  float:left;
+  height:37px;
+  border-radius:0 7px 7px 0;
+  width:85px;
+  font-weight:bold;
+  background:orange;
+  position: absolute;
+  right: 20px;
+}
+  
+.btnBusca:hover {
+    background-color: black;
+    color: orange;
+    transition-delay: 0.2s;
+}
+  
+#OverBlog img {
+    float: left;
+    width: 9%;
+  }
+
+.Título {
+    color: white;
+    text-align: center;
+    font-family: "open-sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-left: 4%;
+  }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 8px;
+    margin-left: 9px;
+    } 
+
+.footer {
+    background-color: #262626;
+    color: #fff;
+    text-align: center;
+    height: 195px;
+    padding: 20px;
+    margin: -100px;
+    }
